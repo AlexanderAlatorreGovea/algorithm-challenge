@@ -1,7 +1,7 @@
 absoluteValuesSumMinimization
 addBorder
 arrayChange
-
+arrayConversion (tracking odd values)
 
 
 

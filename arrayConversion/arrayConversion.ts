@@ -14,14 +14,13 @@ export function arrayConversion(inputArray: number[]): number {
 function sumProduct(nums, isOdd) {
   const sumProducts = [];
 
-  if (isOdd) {
-    for (let i = 0; i < nums.length; i += 2) {
+  for (let i = 0; i < nums.length; i += 2) {
+    if (isOdd) {
       sumProducts.push(nums[i] + nums[i + 1]);
+      continue
     }
-  } else {
-    for (let i = 0; i < nums.length; i += 2) {
-      sumProducts.push(nums[i] * nums[i + 1]);
-    }
+    
+    sumProducts.push(nums[i] * nums[i + 1]);
   }
 
   return sumProducts;
