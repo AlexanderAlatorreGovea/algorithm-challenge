@@ -4,9 +4,9 @@ export function arrayPreviousLess(items: number[]): number[] {
     const element = items[index];
 
     if (element < items[index + 1] && element) {
-      newArray.push(element);
+      newArray.unshift(element);
     } else {
-      newArray.push(-1);
+      newArray.unshift(-1);
     }
   }
 
