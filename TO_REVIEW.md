@@ -3,6 +3,7 @@ addBorder
 arrayChange
 arrayConversion (tracking odd values)
 pawn
+avoid obstacles
 
 
 
