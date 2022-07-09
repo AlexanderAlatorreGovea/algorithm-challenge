@@ -12,9 +12,11 @@ As pixel's value is an integer, all fractions should be rounded down.
 
 For
 
-    image = [[1, 1, 1], 
-            [1, 7, 1], 
-            [1, 1, 1]]
+    image = [
+        [1, 1, 1], 
+        [1, 7, 1], 
+        [1, 1, 1]
+    ]
 the output should be boxBlur(image) = [[1]].
 
 In the given example all boundary pixels were cropped, and the value of the pixel in the middle was obtained as (1 + 1 + 1 + 1 + 7 + 1 + 1 + 1 + 1) / 9 = 15 / 9 = ~rounded down~ = 1.
