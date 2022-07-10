@@ -13,3 +13,4 @@ chunky monkey
 3. Math.floor()
 4. isNaN()
 5. Math.ceil
+6. hasOwnProperty()
