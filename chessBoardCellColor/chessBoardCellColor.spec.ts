@@ -1,27 +1,27 @@
-import { chessBoardCellColor } from './chessBoardCellColor';
+import { chessBoardCellColor } from "./chessBoardCellColor";
 
 xdescribe(chessBoardCellColor.name, () => {
-    it('Test 1', () => {
-        // arrange
-        const cell1 = 'A1';
-        const cell2 = 'C3';
+  it("Test 1", () => {
+    // arrange
+    const cell1 = "A1";
+    const cell2 = "C3";
 
-        // act
-        const response = chessBoardCellColor(cell1, cell2);
+    // act
+    const response = chessBoardCellColor(cell1, cell2);
 
-        // assert
-        expect(response).toBe(true);
-    });
+    // assert
+    expect(response).toBe(true);
+  });
 
-    it('Test 2', () => {
-        // arrange
-        const cell1 = 'A1';
-        const cell2 = 'H3';
+  it("Test 2", () => {
+    // arrange
+    const cell1 = "A1";
+    const cell2 = "H3";
 
-        // act
-        const response = chessBoardCellColor(cell1, cell2);
+    // act
+    const response = chessBoardCellColor(cell1, cell2);
 
-        // assert
-        expect(response).toBe(false);
-    });
+    // assert
+    expect(response).toBe(false);
+  });
 });
