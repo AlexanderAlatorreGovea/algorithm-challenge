@@ -12,3 +12,4 @@ chunky monkey
 2. math.abs()
 3. Math.floor()
 4. isNaN()
+5. Math.ceil
