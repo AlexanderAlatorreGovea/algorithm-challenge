@@ -1,11 +1,11 @@
 export function chunkyMonkey(arr: any[], size: number): any[][] {
-  const newArray = [];
+  let result = [];
 
-  for (let i = 0; i < arr.length; i++) {
-    newArray.push(arr.slice(i, size + i));
+  for (let i = 0; i < arr.length; i += size) {
+    result.push(arr.slice(i, size + i));
   }
 
-  return newArray;
+  return result;
 }
 
 console.log(chunkyMonkey(["a", "b", "c", "d"], 2));
