@@ -5,6 +5,7 @@ arrayConversion (tracking odd values)
 pawn
 avoid obstacles
 chunky monkey
+compose range
 
 
 // Javascript methods
