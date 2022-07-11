@@ -6,6 +6,7 @@ pawn
 avoid obstacles
 chunky monkey
 compose range
+confirm ending
 
 
 // Javascript methods

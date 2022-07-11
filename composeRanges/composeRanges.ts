@@ -2,6 +2,8 @@ export function composeRanges(nums: number[]): string[] {
   let start = null;
   const result = [];
 
+  if (nums.length < 1) return [];
+
   for (let i = 0; i < nums.length; i++) {
     if (start === null) {
       start = nums[i];
