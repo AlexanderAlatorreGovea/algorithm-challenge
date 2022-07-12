@@ -18,3 +18,4 @@ depositProfit (while loop)
 4. isNaN()
 5. Math.ceil
 6. hasOwnProperty()
+7. .includes
