@@ -11,6 +11,7 @@ containsCloseNumbers
 convertString (checks if every character happens in the other array)
 depositProfit (while loop)
 extractMatrixColumn
+fermactor
 
 // Javascript methods
 1. chartCodeAt(0) to get the index of a letter.
@@ -20,3 +21,4 @@ extractMatrixColumn
 5. Math.ceil
 6. hasOwnProperty()
 7. .includes
+8. Math.pow()
