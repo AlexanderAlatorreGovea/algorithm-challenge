@@ -1,5 +1,6 @@
 export function findEmailDomain(address: string): string {
   const addressArray = address.split("@");
+  
   return address.split("@")[addressArray.length - 1];
 }
 

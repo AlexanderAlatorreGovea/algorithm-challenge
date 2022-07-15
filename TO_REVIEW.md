@@ -23,3 +23,4 @@ findClosestPair
 6. hasOwnProperty()
 7. .includes
 8. Math.pow()
+9. hasOwnProperty
