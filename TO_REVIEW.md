@@ -14,6 +14,7 @@ extractMatrixColumn
 fermactor
 findClosestPair
 flattenArray (flaten an array)
+houseOfCats
 
 // Javascript methods
 1. chartCodeAt(0) to get the index of a letter.

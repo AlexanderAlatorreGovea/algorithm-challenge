@@ -12,4 +12,4 @@ export function houseNumbersSum(inputArray: number[]): number {
   return sum;
 }
 
-console.log(houseNumbersSum([5, 1, 2, 3, 0, 1, 5, 0, 2]));
+console.log(houseNumbersSum([5, 1, 2, 3, 0, 1, 5, 0, 1]));
