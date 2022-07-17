@@ -29,3 +29,4 @@ largestOfFour
 8. Math.pow()
 9. hasOwnProperty
 10. slice()
+11. repeat()

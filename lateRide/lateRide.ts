@@ -1,5 +1,5 @@
 export function lateRide(n: number): number {
-
+    
 }
 
 // console.log(lateRide(240));
