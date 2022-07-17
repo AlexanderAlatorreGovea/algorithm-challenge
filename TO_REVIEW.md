@@ -30,3 +30,4 @@ largestOfFour
 9. hasOwnProperty
 10. slice()
 11. repeat()
+12. Math.sign()
