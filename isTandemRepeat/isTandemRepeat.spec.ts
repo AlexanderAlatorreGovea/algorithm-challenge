@@ -1,36 +1,36 @@
-import { isTandemRepeat } from './isTandemRepeat';
+import { isTandemRepeat } from "./isTandemRepeat";
 
 xdescribe(isTandemRepeat.name, () => {
-    it('Test 1', () => {
-        // arrange
-        const inputString = 'tandemtandem';
+  it("Test 1", () => {
+    // arrange
+    const inputString = "tandemtandem";
 
-        // act
-        const response = isTandemRepeat(inputString);
+    // act
+    const response = isTandemRepeat(inputString);
 
-        // assert 
-        expect(response).toBe(true);
-    });
+    // assert
+    expect(response).toBe(true);
+  });
 
-    it('Test 2', () => {
-        // arrange
-        const inputString = 'qqq';
+  it("Test 2", () => {
+    // arrange
+    const inputString = "qqq";
 
-        // act
-        const response = isTandemRepeat(inputString);
+    // act
+    const response = isTandemRepeat(inputString);
 
-        // assert 
-        expect(response).toBe(false);
-    });
+    // assert
+    expect(response).toBe(false);
+  });
 
-    it('Test 3', () => {
-        // arrange
-        const inputString = '2w2ww';
+  it("Test 3", () => {
+    // arrange
+    const inputString = "2w2ww";
 
-        // act
-        const response = isTandemRepeat(inputString);
+    // act
+    const response = isTandemRepeat(inputString);
 
-        // assert 
-        expect(response).toBe(false);
-    });
+    // assert
+    expect(response).toBe(false);
+  });
 });
