@@ -18,6 +18,11 @@ houseOfCats
 incrementalBackups
 largestOfFour
 
+
+
+// AlgoCasts
+maxChar
+
 // Javascript methods
 1. chartCodeAt(0) to get the index of a letter.
 2. math.abs()
@@ -31,3 +36,5 @@ largestOfFour
 10. slice()
 11. repeat()
 12. Math.sign()
+13. Object.keys()
+14. replaces empty spaces = str.replace(/[^\w]/g, "") and punctuations
