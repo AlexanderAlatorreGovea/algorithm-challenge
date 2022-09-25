@@ -38,3 +38,4 @@ maxChar
 12. Math.sign()
 13. Object.keys()
 14. replaces empty spaces = str.replace(/[^\w]/g, "") and punctuations
+15. shift() removes first element in array

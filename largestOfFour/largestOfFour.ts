@@ -5,7 +5,9 @@ export function largestOfFour(nums: number[][]): number[] {
     let largest = 0;
 
     for (let j = 0; j < nums.length; j++) {
-      largest = largest < nums[index][j] ? nums[index][j] : largest;
+      const number = nums[index][j];
+ 
+      largest = largest < number ? number : largest;
     }
 
     largestNumbers.push(largest);
